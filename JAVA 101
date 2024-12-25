@@ -1,3 +1,26 @@
-public class Main {
+// Practice Problems 
 
+// # 1: Write a function called countOccurrences that takes an integer array arr 
+and an integer n, and returns the number of times that n appears in arr.
+
+
+public static int count0ccurences(int[] arr, int n){
+  // initialize count accumulator 
+  int count = 0 
+
+  //
+  for (int num : arr){ 
+      if (num == n){ 
+        count = count + 1; 
+      }
+  }
+
+  return count; 
+}
+
+// #2: Write a function called reverseArray that takes an integer array arr 
+and returns a new array with the elements of arr but in reverse order.
+
+public static int reverseArray(int[] arr){ 
+   for (int i 
 }
